@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>count</h1>
+<h1>You entered</h1>
+{{fulltext}}
+<br>
+<br>
+<br>
+
+{% for word, counttotal in worddictionary %}
+    {{word}} - {{counttotal}} <br>
+{% endfor %}
+
+
+</body>
+</html>
